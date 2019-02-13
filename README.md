@@ -7,7 +7,7 @@ __Formål:__
 __Krav:__  
 Du skal lave en layout analyse (se .xd filen) for at:
 * Give et bud på brugen af layout metode (fx. grid).
-* Give et bud op en semantisk korrekt struktur.  
+* Give et bud på en semantisk korrekt struktur.  
 
 *Ovenstående skal godkendes af en lærer før kode arbejdet kan begyndes.*
 
