@@ -11,7 +11,7 @@ Du skal lave en layout analyse (se .xd filen) for at:
 
 *Ovenstående skal godkendes af en lærer før kode arbejdet kan begyndes.*
 
-__Matrialer:__
+__Materialer:__
 * Du kan finde og hente alle nødvendige materialer i dette repository.
 
 
