@@ -17,7 +17,7 @@ __Materialer:__
 
 __Aflevering:__
 * Du skal aflevere dit projekt(repository) på LMS inkl. et link til GitHub pages, hvor dit site også skal ligge.
-* Du har 7 dage til at udvikle webapplikationen.
+* Du har 5 dage til at udvikle webapplikationen.
 
 
 
