@@ -1,8 +1,45 @@
 @import url("./navbar.css");
 @import url("./footer.css");
-.box{
-    max-width: 900px;
+
+.h1stil{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.float{
-    float: right;
+
+@media screen and (min-width: 769px){
+    .h1stil{
+        font-size: 48px;
+        margin: 7% 0 7% 5%;
+    }
+    .box{
+        max-width: 800px;
+        margin: auto;
+    }
+    .float{
+        float: right;
+        max-width: 300px;
+    }
+    .textbox{
+        margin: 4% 0 2% 0;
+        padding: 2%;
+    }
+    .widthbox{
+        max-width: 800px;
+        margin: auto;
+        padding: 2%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .box{
+        max-width: 100%;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .float{
+        object-fit: scale-down;
+    }
+    .responsive{
+        object-fit: scale-down;
+    }
 }
