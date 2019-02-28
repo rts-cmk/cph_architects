@@ -1,8 +1,18 @@
 @import url("./navbar.css");
 @import url("./footer.css");
-
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
 .h1stil{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textstyle{
+    font-size: calc(1em + (21 - 16) * (100vw - 420px) / (1920 - 412));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 2% 0 0;
 }
 
 @media screen and (min-width: 769px){
@@ -18,10 +28,6 @@
         float: right;
         max-width: 300px;
     }
-    .textbox{
-        margin: 4% 0 2% 0;
-        padding: 2%;
-    }
     .widthbox{
         max-width: 800px;
         margin: auto;
@@ -31,15 +37,17 @@
 
 @media screen and (max-width: 768px){
     .box{
-        max-width: 100%;
+        width: 100%;
     }
     .container{
-        max-width: 100%;
+        width: 100%;
+        margin:0 auto;
     }
     .float{
-        object-fit: scale-down;
+        max-width: 100%;
+        float: none;
     }
     .responsive{
-        object-fit: scale-down;
+        max-width: 100%;
     }
 }
