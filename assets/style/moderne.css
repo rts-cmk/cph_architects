@@ -1,2 +1,53 @@
 @import url("./navbar.css");
 @import url("./footer.css");
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.h1stil{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textstyle{
+    font-size: calc(1em + (21 - 16) * (100vw - 420px) / (1920 - 412));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 2% 0 0;
+}
+
+@media screen and (min-width: 769px){
+    .h1stil{
+        font-size: 48px;
+        margin: 7% 0 7% 5%;
+    }
+    .box{
+        max-width: 800px;
+        margin: auto;
+    }
+    .float{
+        float: right;
+        max-width: 300px;
+    }
+    .widthbox{
+        max-width: 800px;
+        margin: auto;
+        padding: 2%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .box{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        margin:0 auto;
+    }
+    .float{
+        max-width: 100%;
+        float: none;
+    }
+    .responsive{
+        max-width: 100%;
+    }
+}
