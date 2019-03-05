@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.obejctsize{
+    margin: 20px auto 10px auto;
+    display: flex;
+    font-size: calc(1em + (21 - 16) * (100vw - 420px) / (1920 - 412));
+}
+.cardsection{
+    background-color: #bcdfde;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.obejctsize{
+    max-width: 500px;
+    font-size: calc(0.7em + (21 - 16) * (100vw - 420px) / (1920 - 412));
+}
+.cardimg{
+    max-width: 140px;
+    line-height: 0;
+}
+.cardsection{
+    max-height: 120px;
+    color: black;
+}
+
+@media screen and (min-width: 769px){
+    .obejctsize{    
+        width: 750px;
+        max-width: 750px;
+    }
+    .cardimg{
+        width: 150px;
+        line-height: 0;
+    }
+    h2{
+        font-size: 24px;
+        margin: 5px 0 10px 0;
+    }
+    .cardsection{
+        padding: 15px;
+        width: 600px;
+        max-height: 100%;
+    }
+    img{
+        max-height: 100%;
+    }
+}
